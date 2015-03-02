@@ -1,7 +1,7 @@
 //= require jquery
 //= require_tree .
 //= require bootstrap
-
+//= require_validate
 
 setInterval(function(){
   var spacer = $('.spacer').height();

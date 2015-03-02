@@ -110,3 +110,42 @@ td{
    color: #29206d !important;
    text-align: center;
 }
+
+.purp-border{
+  border: 5px #292366 solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.ss-choices{
+  padding-left: 0;
+  list-style: none;
+}
+
+.ss-q-title, .ss-choice-label{
+  color: #292366;
+}
+
+#navigation-table{
+  margin: 0 auto;
+}
+
+#ss-form td{
+  padding-right: 0;
+}
+
+#ss-submit{
+  background-color: #292366;
+  border-color: #292361;
+}
+
+.headline{
+  text-align: center;
+  color: #292366;
+  margin-bottom: 20px;
+}
+
+.purple{
+  color: #292366;
+}
