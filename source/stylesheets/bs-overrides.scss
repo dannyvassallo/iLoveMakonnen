@@ -5,6 +5,13 @@ nav li{
   margin-right: 7px;
 }
 .navbar-brand{
-  padding: 10px 10px !important;
+  padding: 20px 10px !important;
 }
 $btn-danger-bg: #e8214c;
+.btn-danger{
+  text-transform: uppercase;
+  min-height: 50px;
+  font-size: 20px !important;
+  line-height: 40px !important;
+  margin-bottom: 8px !important;
+}
