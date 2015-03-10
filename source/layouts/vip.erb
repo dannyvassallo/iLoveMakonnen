@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta property="og:image" content="https://s3.amazonaws.com/myfangate.com/makonnen/makonnen-share.jpg">
+    <meta property="og:title" content="iLoveMakonnen | Ticket Sweepstakes">
+    <meta property="og:description" content="TICKET GIVEAWAY SWEEPSTAKES! ENTER YOUR EMAIL ADDRESS TO WIN TICKETS TO A MAKONNEN SHOW NEAR YOU!">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "iLoveMakonnen" %></title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <%= stylesheet_link_tag :site %>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-60060281-3', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <%= yield %>
+    <%= javascript_include_tag :all %>
+  </body>
+</html>
